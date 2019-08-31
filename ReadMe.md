@@ -8,15 +8,16 @@ Low-level language has always been fun to learn, since you understand how a comp
 Lexical Analyzer, YACC and GCC Compiler
 
 ## How to run the code
-Step 1: Go to the directory where the file LexFile.l and LexFile.y is present
-Step 2: In terminal, type the following:
-										```
-										yacc -d YACCFile.y
-										lex LexFile.lex
-										cc y.tab.c lex.yy.c
-										mv a.out moreDescriptiveName
-										moreDescriptiveName
-										```
+1. Go to the directory where the file LexFile.l and LexFile.y is present.
+
+2. In terminal, type the following:
+```
+yacc -d YACCFile.y
+lex LexFile.lex
+cc y.tab.c lex.yy.c
+mv a.out moreDescriptiveName
+moreDescriptiveName
+```
 For more descriptive instructions to run the YACC and Lex file, please refer the following webpage: https://sites.ualberta.ca/dept/chemeng/AIX-43/share/man/info/C/a_doc_lib/aixprggd/genprogc/ie_prog_4lex_yacc.htm
 
 ## Reference
